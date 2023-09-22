@@ -84,8 +84,8 @@ const CreateTaskDialog = ({ open, collection, setOpen }: Iprops) => {
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
-                                )}>
-                            </FormField>
+                                )}
+                            />
                             <FormField
                                 control={form.control}
                                 name="expiresAt"
@@ -109,8 +109,8 @@ const CreateTaskDialog = ({ open, collection, setOpen }: Iprops) => {
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
-                                )}>
-                            </FormField>
+                                )}
+                            />
                         </form>
                     </Form>
                 </div>
